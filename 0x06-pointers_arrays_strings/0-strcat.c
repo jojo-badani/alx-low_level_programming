@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 
 /**
  * _strcat -concartenates two strings
@@ -17,9 +17,8 @@ char _strcat(char *dest, char *src);
 	{
 		i++;
 	}
-
 	j = 0;
-	while (src[j] != '\0');
+	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
