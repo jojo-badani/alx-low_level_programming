@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/** A dream doesn't become reality through magic*/
 int main(void)
 {
 	int n;
