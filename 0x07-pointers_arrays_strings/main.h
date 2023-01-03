@@ -1,13 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stddef.h>
-/**
- * File: main.h
- * Auth: sam tech (samuel birhanu)Auth: sam tech (samuel birhanu)
- * description: Header file containing prototypes for all functions
- * used in the 0x06-pointers_arrays_strings directory
- */
-int _putchar(char c)
+int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
